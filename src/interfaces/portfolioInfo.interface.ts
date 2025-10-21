@@ -77,6 +77,7 @@ export interface Experience {
   description: string;
   achievements: string[];
   logo: string;
+  company_url: string;
 }
 
 // Reviews / Testimonials

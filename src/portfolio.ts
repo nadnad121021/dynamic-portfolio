@@ -106,11 +106,12 @@ const portfolioInfo: TPortfolioInfo = {
                 'Conducted peer code reviews, improving code quality and reducing post-deployment bugs.',
                 'Collaborated in Agile sprints, driving on-time delivery of high-priority backend features.'
             ],
-            logo: 'mojo-ai.svg'
+            logo: 'mojo-ai.svg',
+            company_url: 'https://getmojo.ai/',
         },
         {
             title: 'Node.js Developer',
-            company: 'DGV SmartStart Inc.',
+            company: 'SmartStart, a Dia & Gerona Ventures LLC Company',
             period: 'July 2022 – December 2023',
             description: 'Developed RESTful APIs with Node.js/Express and integrated them with React front-end components to enable smooth client-server communication.',
             achievements: [
@@ -118,7 +119,8 @@ const portfolioInfo: TPortfolioInfo = {
                 'Managed and maintained MongoDB database, optimizing queries and ensuring data consistency.',
                 'Collaborated with cross-functional teams to integrate new API endpoints and improve system reliability.'
             ],
-            logo: 'smartstart.jpeg'
+            logo: 'smartstart.jpeg',
+            company_url: 'https://smartstart.us/',
         },
         {
             title: 'Software Engineer',
@@ -129,7 +131,8 @@ const portfolioInfo: TPortfolioInfo = {
                 'Developed microservice-based architectures to improve modularity, maintainability, and scalability.',
                 'Integrated frontend components with backend APIs, ensuring seamless user experiences.',
             ],
-            logo: 'dna.jpeg'
+            logo: 'dna.jpeg',
+            company_url: 'https://www.dnamicro.com/',
         },
         {
             title: 'Application Developer Intern',
@@ -140,7 +143,8 @@ const portfolioInfo: TPortfolioInfo = {
                 'Developed internal web applications using .NET and MS SQL Server, automating reporting workflows.',
                 'Migrated manual Excel-based processes into web tools, improving data accuracy and accessibility across teams.',
             ],
-            logo: 'lear.png'
+            logo: 'lear.png',
+            company_url: 'https://www.lear.com/',
         }
     ],
     reviews: [

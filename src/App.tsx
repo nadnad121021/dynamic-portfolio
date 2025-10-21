@@ -5,7 +5,7 @@ import {
   Github, 
   Linkedin,
   Mail, 
-  ExternalLink, 
+  // ExternalLink, 
   Code2, 
   Briefcase, 
   User, 
@@ -139,10 +139,10 @@ function App() {
 
             <div className="flex flex-wrap items-center justify-center gap-4 mb-12 animate-fadeIn">
               <button
-                onClick={() => scrollToSection('projects')}
+                onClick={() => scrollToSection('experience')}
                 className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:-translate-y-1"
               >
-                View My Work
+                View My Experience
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
@@ -248,8 +248,15 @@ function App() {
                       />
                       <div>
                         <h3 className="text-2xl font-bold text-cyan-400 mb-2">{exp.title}</h3>
-                        <p className="text-xl text-slate-300 mb-1">{exp.company}</p>
-                        <p className="text-slate-400">{exp.period}</p>
+                        <p className="text-xl text-slate-300 mb-1">
+                          <a
+                        href={exp.company_url}
+                        target="_blank"
+                        className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
+                      >
+                        {exp.company}
+                      </a>
+                        </p>
                       </div>
                     </div>
                     <span className="text-slate-400 font-medium">{exp.period}</span>
@@ -353,7 +360,7 @@ function App() {
                     </div>
 
                     <div className="flex gap-4">
-                      <a
+                      {/* <a
                         href={project.link}
                         className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
                       >
@@ -366,7 +373,7 @@ function App() {
                       >
                         <Github size={18} />
                         <span>Source Code</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
