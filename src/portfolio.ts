@@ -158,13 +158,13 @@ const portfolioInfo: TPortfolioInfo = {
         //     image: 'michael.jpeg',
         //     review: `I have developed a deep admiration for Danilo's exceptional technical skills over our nearly one year of collaboration, which are only surpassed by his remarkable patience and professional attitude toward his coworkers.`
         // },
-        //  {
-        //     name: 'John Regy Ebarita',
-        //     role: 'Software Engineer',
-        //     company: 'Mojo AI',
-        //     image: 'john.jpeg',
-        //     review: `I have developed a deep admiration for Danilo's exceptional technical skills over our nearly one year of collaboration, which are only surpassed by his remarkable patience and professional attitude toward his coworkers.`
-        // },
+         {
+            name: 'John Regy Ebarita',
+            role: 'Software Developer',
+            company: 'Mojo AI',
+            image: 'john.jpeg',
+            review: `I’ve had the pleasure of working with Dan for over three years, and I’m continually impressed by his strong work ethic and professionalism. As a software developer, he consistently delivers high-quality solutions and takes great pride in his craft. Dan is dependable, collaborative, and always eager to help the team succeed. Working with him has been an absolute privilege.`
+        },
         {
             name: 'Jane Repollo',
             role: 'Software Engineer',
