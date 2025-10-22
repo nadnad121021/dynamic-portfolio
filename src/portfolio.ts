@@ -169,7 +169,7 @@ const portfolioInfo: TPortfolioInfo = {
             name: 'Jane Repollo',
             role: 'Software Engineer',
             company: 'DNA Micro Software Inc.',
-            image: 'jane.png',
+            image: 'jane.jpg',
             review: `I have developed a deep admiration for Danilo's exceptional technical skills over our nearly one year of collaboration, which are only surpassed by his remarkable patience and professional attitude toward his coworkers.`
         },
         {
