@@ -11,6 +11,9 @@ export interface Portfolio {
   projects: Project[];
   experiences: Experience[];
   reviews: Review[];
+  settings?: {
+    menus: string[];
+  };
 }
 
 // aboutMe

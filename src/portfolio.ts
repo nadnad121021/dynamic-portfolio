@@ -1,4 +1,7 @@
 import { TPortfolioInfo } from "./interfaces/portfolioInfo.interface";
+import { PortfolioSettings} from "./constants/settings";
+
+const menus:string[] = PortfolioSettings.menus;
 
 const portfolioInfo: TPortfolioInfo = {
     name: 'Danilo Alingasa',
@@ -112,7 +115,7 @@ const portfolioInfo: TPortfolioInfo = {
         {
             title: 'Node.js Developer',
             company: 'SmartStart, a Dia & Gerona Ventures LLC Company',
-            period: 'July 2022 – December 2023',
+            period: 'June 2022 – December 2023',
             description: 'Developed RESTful APIs with Node.js/Express and integrated them with React front-end components to enable smooth client-server communication.',
             achievements: [
                 'Refactored and migrated existing JavaScript codebase to TypeScript.',
@@ -125,7 +128,7 @@ const portfolioInfo: TPortfolioInfo = {
         {
             title: 'Software Engineer',
             company: 'DNA Micro Software Inc.',
-            period: 'October 2020 – July 2022',
+            period: 'October 2020 – June 2022',
             description: 'Worked as a semi full-stack developer, primarily focused on back-end development using Node.js and Express. On the front-end, collaborated closely with React developers by implementing integration logic, connecting UI components to backend services, and ensuring seamless data flow between client and server.',
             achievements: [
                 'Developed microservice-based architectures to improve modularity, maintainability, and scalability.',
@@ -148,6 +151,20 @@ const portfolioInfo: TPortfolioInfo = {
         }
     ],
     reviews: [
+        //  {
+        //     name: 'Michael Albano',
+        //     role: 'Flutter Developer | Mobile Developer',
+        //     company: 'Mojo AI',
+        //     image: 'michael.jpeg',
+        //     review: `I have developed a deep admiration for Danilo's exceptional technical skills over our nearly one year of collaboration, which are only surpassed by his remarkable patience and professional attitude toward his coworkers.`
+        // },
+        //  {
+        //     name: 'John Regy Ebarita',
+        //     role: 'Software Engineer',
+        //     company: 'Mojo AI',
+        //     image: 'john.jpeg',
+        //     review: `I have developed a deep admiration for Danilo's exceptional technical skills over our nearly one year of collaboration, which are only surpassed by his remarkable patience and professional attitude toward his coworkers.`
+        // },
         {
             name: 'Jane Repollo',
             role: 'Software Engineer',
@@ -158,11 +175,14 @@ const portfolioInfo: TPortfolioInfo = {
         {
             name: 'Cris Laurence Lorejas',
             role: 'Software Engineer',
-            company: 'DGV SmartStart Inc.',
-            image: 'cris.png',
+            company: 'SmartStart, a Dia & Gerona Ventures LLC Company',
+            image: 'cris.jpeg',
             review: 'Dan and I have collaborated for over a year on Backend and database tasks. Working with Dan is enjoyable due to his excellent programming skills, adaptability, timely delivery, and open communication. His clear diagrams and simple yet effective code make collaboration smooth and productive.'
         }
-    ]
+    ],
+    settings: {
+        menus: menus,
+    }
 };
 
 export const defaultPortfolio: TPortfolioInfo = portfolioInfo
