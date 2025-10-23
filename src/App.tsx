@@ -9,6 +9,7 @@ import About from './components/about';
 import Home from './components/home';
 import Header from './components/header';
 import { PortfolioSettings } from "./constants/settings";
+import DownloadResume from './components/downloadResume';
 
 function App() {
   const { portfolio } = usePortfolio();
@@ -54,12 +55,12 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100">
-      <Header 
-      isMenuOpen={isMenuOpen} 
-      setIsMenuOpen={setIsMenuOpen} 
-      activeSection={activeSection} 
-      isScrolled={isScrolled} 
-      scrollToSection={scrollToSection} />
+      <Header
+        isMenuOpen={isMenuOpen}
+        setIsMenuOpen={setIsMenuOpen}
+        activeSection={activeSection}
+        isScrolled={isScrolled}
+        scrollToSection={scrollToSection} />
 
       <main>
         <Home scrollToSection={scrollToSection} />
@@ -69,6 +70,7 @@ function App() {
         <Project />
         <Review />
         <Contact />
+        <DownloadResume isScrolled={isScrolled} />
       </main>
     </div>
   );

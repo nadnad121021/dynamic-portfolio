@@ -13,6 +13,7 @@ export interface Portfolio {
   reviews: Review[];
   settings?: {
     menus: string[];
+    enableDownloadResume?: boolean;
   };
 }
 
