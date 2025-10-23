@@ -1,4 +1,4 @@
-import { Code2 } from "lucide-react";
+import { Code2, ExternalLink } from "lucide-react";
 import { usePortfolio } from "../context/PortfolioContext";
 
 function Project() {
@@ -48,6 +48,7 @@ function Project() {
 
                                 <div className="flex gap-4">
                                     <p className="text-slate-400 mb-3">{project.duration}</p>
+
                                     {/* <a
                         href={project.link}
                         className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
@@ -62,6 +63,28 @@ function Project() {
                         <Github size={18} />
                         <span>Source Code</span>
                       </a> */}
+                                </div>
+                                <div className="flex gap-4 mt-2">
+                                    {project.hasWebsite && (
+                                        <a
+                                            href={project.website}
+                                            target="_blank"
+                                            className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
+                                        >
+                                            <ExternalLink size={18} />
+                                            <span>Visit Website</span>
+                                        </a>
+                                    )}
+                                    {project.playstoreLink && (
+                                        <a
+                                            href={project.playstoreLink}
+                                            target="_blank"
+                                            className="flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
+                                        >
+                                            <ExternalLink size={18} />
+                                            <span>Visit Play Store</span>
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </div>

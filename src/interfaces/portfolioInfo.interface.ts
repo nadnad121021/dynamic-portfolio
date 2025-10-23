@@ -67,10 +67,15 @@ export interface Project {
   description: string;
   technologies: string[];
   logo: string;
-  link: string;
+  website: string;
   github: string;
   role: string;
   duration: string;
+  hasWebsite?: boolean;
+  playstoreLink?: string;
+  appstoreLink?: string;
+  hasPlaystoreLink?: boolean;
+  hasAppstoreLink?: boolean;
 }
 
 // Experience
