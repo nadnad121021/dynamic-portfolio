@@ -1,7 +1,7 @@
 import { TPortfolioInfo } from "./interfaces/portfolioInfo.interface";
-import { PortfolioSettings} from "./constants/settings";
+import { PortfolioSettings } from "./constants/settings";
 
-const menus:string[] = PortfolioSettings.menus;
+const menus: string[] = PortfolioSettings.menus;
 
 const portfolioInfo: TPortfolioInfo = {
     name: 'Danilo Alingasa',
@@ -10,7 +10,7 @@ const portfolioInfo: TPortfolioInfo = {
     resumeLink: "https://drive.google.com/uc?export=download&id=1dUl4IVY0bHgryujzvkDqitmWRc5p3lM8",
     aboutMe: {
         quote: " - ❝ It takes thousands of inputs to achieve good output. ❞",
-        greetings:`Greetings! I'm Dan, a highly skilled software engineer specializing in React.js and Node.js development. With a passion for building robust and scalable web applications, I bring over 5 years of experience to the table.I thrive in collaborative environments and have a proven track record of delivering high-quality solutions that meet client requirements. From crafting dynamic user interfaces with React.js to designing efficient server-side systems with Node.js, I have the expertise to bring your ideas to life. Let's work together to create exceptional software experiences that drive your business forward.`,
+        greetings: `Greetings! I'm Dan, a highly skilled software engineer specializing in React.js and Node.js development. With a passion for building robust and scalable web applications, I bring over 5 years of experience to the table.I thrive in collaborative environments and have a proven track record of delivering high-quality solutions that meet client requirements. From crafting dynamic user interfaces with React.js to designing efficient server-side systems with Node.js, I have the expertise to bring your ideas to life. Let's work together to create exceptional software experiences that drive your business forward.`,
         philosophies: [
             {
                 "title": "Coder",
@@ -58,7 +58,7 @@ const portfolioInfo: TPortfolioInfo = {
         {
             title: 'Safety Mojo',
             description: 'Powerful platform that keeps everyone in a construction company aligned on safety, giving them live updates and insights to prevent accidents, save money, and make safety part of the company’s everyday mindset.',
-            technologies: ['Node.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'AWS ECS', 'Docker', 'ECR', 'GitHub Actions','TypeORM'],
+            technologies: ['Node.js', 'Express.js', 'TypeScript', 'PostgreSQL', 'AWS ECS', 'Docker', 'ECR', 'GitHub Actions', 'TypeORM'],
             logo: 'safety-mojo-mob.png',
             website: 'https://safetymojo.ai/',
             github: '#',
@@ -66,7 +66,7 @@ const portfolioInfo: TPortfolioInfo = {
             duration: "2023 - 2025",
             hasWebsite: true,
             hasPlaystoreLink: true,
-            playstoreLink:'https://play.google.com/store/apps/details?id=ai.edify.rome',
+            playstoreLink: 'https://play.google.com/store/apps/details?id=ai.edify.rome',
         },
         {
             title: 'Lear Clinic System - LCS',
@@ -164,14 +164,14 @@ const portfolioInfo: TPortfolioInfo = {
         }
     ],
     reviews: [
-        //  {
-        //     name: 'Michael Albano',
-        //     role: 'Flutter Developer | Mobile Developer',
-        //     company: 'Mojo AI',
-        //     image: 'michael.jpeg',
-        //     review: `I have developed a deep admiration for Danilo's exceptional technical skills over our nearly one year of collaboration, which are only surpassed by his remarkable patience and professional attitude toward his coworkers.`
-        // },
-         {
+        {
+            name: 'Michael Albano',
+            role: 'Flutter Developer | Mobile Developer',
+            company: 'Mojo AI',
+            image: 'michael.jpeg',
+            review: `I worked with Dan for the past 3 years. He’s always been responsive and capable to deliver the backend needs of our projects. He’s a team player and is always open to suggestions and improvements. I highly recommend Dan for any backend development needs.`
+        },
+        {
             name: 'John Regy Ebarita',
             role: 'Software Developer',
             company: 'Mojo AI',
