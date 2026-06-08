@@ -9,7 +9,7 @@ import About from './components/about';
 import Home from './components/home';
 import Header from './components/header';
 import { PortfolioSettings } from "./constants/settings";
-// import DownloadResume from './components/downloadResume';
+import DownloadResume from './components/downloadResume';
 
 function App() {
   const { portfolio } = usePortfolio();
@@ -70,7 +70,7 @@ function App() {
         <Project />
         <Review />
         <Contact />
-        {/* <DownloadResume isScrolled={isScrolled} /> */}
+        <DownloadResume isScrolled={isScrolled} enableDownloadResume={PortfolioSettings.enableDownloadResume} />
       </main>
     </div>
   );

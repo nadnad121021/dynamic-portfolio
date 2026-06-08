@@ -10,8 +10,8 @@ function Header({ isMenuOpen, setIsMenuOpen, activeSection, isScrolled, scrollTo
     scrollToSection: (sectionId: string) => void;
 }) {
     const { portfolio } = usePortfolio();
-    const { name, settings } = portfolio ?? {};
-    const menus = settings?.menus || PortfolioSettings.menus;
+    const { name } = portfolio ?? {};
+    const menus = PortfolioSettings.menus;
 
     if (!name || menus.length === 0) {
         return null;

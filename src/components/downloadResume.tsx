@@ -1,10 +1,9 @@
 import { Download } from "lucide-react";
 import { usePortfolio } from "../context/PortfolioContext";
 
-function DownloadResume({ isScrolled }: { isScrolled: boolean }) {
+function DownloadResume({ isScrolled, enableDownloadResume }: { isScrolled: boolean; enableDownloadResume: boolean }) {
     const { portfolio } = usePortfolio();
-    const { resumeLink, settings } = portfolio ?? {};
-    const { enableDownloadResume } = settings || {};
+    const { resumeLink } = portfolio ?? {};
 
     if (!enableDownloadResume || !resumeLink) {
         return null;

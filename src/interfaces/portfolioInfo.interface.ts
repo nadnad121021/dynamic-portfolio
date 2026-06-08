@@ -11,10 +11,6 @@ export interface Portfolio {
   projects: Project[];
   experiences: Experience[];
   reviews: Review[];
-  settings?: {
-    menus: string[];
-    enableDownloadResume?: boolean;
-  };
 }
 
 // aboutMe

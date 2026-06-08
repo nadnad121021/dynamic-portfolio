@@ -1,13 +1,13 @@
 import { TPortfolioInfo } from "./interfaces/portfolioInfo.interface";
-import { PortfolioSettings } from "./constants/settings";
+// import { PortfolioSettings } from "./constants/settings";
 
-const menus: string[] = PortfolioSettings.menus;
+// const menus: string[] = PortfolioSettings.menus;
 
 const portfolioInfo: TPortfolioInfo = {
     name: 'Danilo Alingasa',
     title: 'Software Engineer',
     description: 'A passionate software engineer specializing in building robust and scalable backend systems using Node.js and Express.',
-    resumeLink: "https://drive.google.com/uc?export=download&id=1dUl4IVY0bHgryujzvkDqitmWRc5p3lM8",
+    resumeLink: "https://drive.google.com/uc?export=download&id=1YZmCq5nK_9naUuIeLHmYfWZOjz1aF29l",
     aboutMe: {
         quote: " - ❝ It takes thousands of inputs to achieve good output. ❞",
         greetings: `Greetings! I'm Dan, a highly skilled software engineer specializing in React.js and Node.js development. With a passion for building robust and scalable web applications, I bring over 5 years of experience to the table.I thrive in collaborative environments and have a proven track record of delivering high-quality solutions that meet client requirements. From crafting dynamic user interfaces with React.js to designing efficient server-side systems with Node.js, I have the expertise to bring your ideas to life. Let's work together to create exceptional software experiences that drive your business forward.`,
@@ -206,10 +206,6 @@ const portfolioInfo: TPortfolioInfo = {
             review: 'Dan and I have collaborated for over a year on Backend and database tasks. Working with Dan is enjoyable due to his excellent programming skills, adaptability, timely delivery, and open communication. His clear diagrams and simple yet effective code make collaboration smooth and productive.'
         }
     ],
-    settings: {
-        menus: menus,
-        enableDownloadResume: true,
-    }
 };
 
 export const defaultPortfolio: TPortfolioInfo = portfolioInfo
