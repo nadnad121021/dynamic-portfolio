@@ -111,10 +111,23 @@ const portfolioInfo: TPortfolioInfo = {
     ],
     experiences: [
         {
-            title: 'Software Engineer',
+            title: 'Backend Developer (Contract)',
+            company: 'MUVR Technologies, Inc.',
+            period: 'December 2025 - April 2026',
+            description: 'Worked as a Back-End Developer responsible for developing and maintaining backend services, APIs, and application integrations using Node.js, TypeScript, and TypeORM. Successfully ramped up on a complex existing codebase, resolved critical issues affecting the real-time chat functionality, and contributed to continuous product improvements through API enhancements, bug fixes, and Agile team collaboration.',
+            achievements: [
+                'Contributed to backend development using Node.js and JavaScript; quickly ramped up on the codebase and fixed the non-functional real-time chat feature, restoring stable in-app communication',
+                'Updated API endpoints, and collaborated in Agile sprints to deliver reliable feature improvements as a new team member.',
+            ],
+            logo: 'muvr.svg',
+            company_url: 'https://www.muvr.io/',
+            background_color: 'bg-purple-500',
+        },
+        {
+            title: 'Software Engineer (Contract)',
             company: 'Mojo AI',
             period: 'December 2023 - July 2025',
-            description: 'Worked as a Back-End Developer building scalable services using Node.js, TypeScript, and TypeORM. Managed end-to-end deployment workflows through Git-based CI/CD pipelines, containerizing applications with Docker and deploying to AWS ECS with image management via ECR.',
+            description: 'Worked as a Software Engineer building scalable services using Node.js, TypeScript, and TypeORM. Managed end-to-end deployment workflows through Git-based CI/CD pipelines, containerizing applications with Docker and deploying to AWS ECS with image management via ECR.',
             achievements: [
                 'Designed and optimized RESTful APIs using Node.js, Express.js and TypeScript, improving backend performance.',
                 'Implemented CI/CD pipelines using AWS ECR and ECS.',

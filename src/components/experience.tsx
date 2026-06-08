@@ -28,7 +28,7 @@ function Experience() {
                                     <img
                                         src={`/experience/${exp.logo}`}
                                         alt={`${exp.company} logo`}
-                                        className="w-16 h-16 object-contain rounded-lg bg-white p-2"
+                                        className={exp.background_color ? `w-16 h-16 object-contain rounded-lg p-2 ${exp.background_color}` : 'w-16 h-16 object-contain rounded-lg bg-white p-2'}
                                     />
                                     <div>
                                         <h3 className="text-2xl font-bold text-cyan-400 mb-2">{exp.title}</h3>

@@ -87,6 +87,7 @@ export interface Experience {
   achievements: string[];
   logo: string;
   company_url: string;
+  background_color?: string;
 }
 
 // Reviews / Testimonials
