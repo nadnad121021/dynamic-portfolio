@@ -178,6 +178,13 @@ const portfolioInfo: TPortfolioInfo = {
     ],
     reviews: [
         {
+            name: 'James Carlo Rosales',
+            role: 'Flutter Developer | Mobile Developer',
+            company: 'MUVR Technologies, Inc.',
+            image: 'james.png',
+            review: `I worked closely with Dan for five months, and overall, he is a great person and an excellent colleague. He was my workmate as a backend developer at our previous company. He is very approachable, professional, and easy to work with. I enjoyed working with him and would highly recommend him to any team.`
+        },
+        {
             name: 'Michael Albano',
             role: 'Flutter Developer | Mobile Developer',
             company: 'Mojo AI',
